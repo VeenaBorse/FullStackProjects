@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+body{
+	background-color: black;
+	color: white;
+}
+
+.container{
+
+	width: 500px;
+	margin:50px auto;
+	border:2px solid green;
+	text-align: center;
+	border-radius: 20px;
+	height: 600px;
+}
+
+h1{
+	font-size: 32px;
+	font-weight:100;
+	padding: 30px;
+
+}
+
+.green{
+	color: green;
+	font-weight:600;
+}
+
+.todoinput input{
+	height: 40px;
+	width: 300px;
+	border-radius: 25px;
+	padding: 10px;
+	outline: 0px;
+	border:none;
+}
+
+.todoinput button{
+	margin:20px;
+	padding: 4px 13px;
+	border:none;
+	border-radius: 100px;
+	font-size:30px;
+	color: white;
+	background-color: green;
+}
+
+.taskcontainer{
+	width: 90%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	padding: 20px;
+}
+
+.taskcontainer ul{
+	list-style-type: none;
+	text-align: left;
+	/*border:1px solid red;*/
+}
+.taskcontainer li{
+	/*border:1px solid green;*/
+	padding: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid green;
+}
+
+#litask input{
+	display: inline-block;
+	
+}
+
+#radiobtn{
+	/*float: left;
+	width: 20px;*/
+	margin-right: 10px;
+}
+
+.task{
+	/*float: left;*/
+	/*width: 70%;*/
+	/*border:1px solid red;*/
+}
+
+#delete{
+	float: right;
+	
+
+}
+
+.fix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
