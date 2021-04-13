@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.container{
+
+	width: 80%;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+.container .label{
+	padding: 20px;
+	background: linear-gradient(25deg, #74dcdc, #fff);
+	color: #323488;
+	position: relative;
+	margin: 10px 0;
+}
+
+.container .label::after{
+	content: "+";
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	font-size: 1.5em;	
+
+}
+
+.container .content{
+	padding: 5px 20px;
+	display: none;
+}
+
+.active{
+	background-color: #eee;
+
+}
