@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../images/bgimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.overlay{
+	background-color:rgba(0,0,0,0.70);
+	height:100vh;
+	width: 100%;
+	
+
+}
+
+header{
+	padding-top: 30px;
+}
+
+.floatleft{
+	float: left;
+	width: 25%;
+}
+
+.floatright{
+	float: right;
+	width: 75%;
+	text-align: right;
+
+}
+
+.floatleft .logo{
+	font-family: 'quicksandregular';
+	font-size: 50px;
+	color: lightgray;
+	padding-left:30px;
+	
+}
+
+.floatleft .logogreen{
+	color:#e8be66;
+	font-family: 'quicksandregular';
+	font-size: 40px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px 20px;
+	position: relative;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+nav ul li::after{
+	content: '';
+	background-color: #e8be66;
+	height: 3px;
+	width: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s;
+	bottom: -10px;
+}
+
+nav ul li:hover::after{
+	width: 100%;
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: lightgray;
+}
+
+.content h1{
+	font-size: 70px;
+
+}
+
+.content p{
+	  font-weight: 100;
+	  line-height: 25px;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	border:2px solid #e8be66;
+	border-radius: 25px;
+	font-weight: bold;
+	margin:20px 10px;
+	background:transparent;
+	color: white;
+	position: relative;
+
+}
+
+.content span{
+	background-color: #e8be66;
+	border:0px;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 25px;
+	z-index: -1;
+	transition: 0.5s;
+
+}
+
+button:hover span{
+	width: 100%;
+}
+
+button:hover {
+	border:none;
+}
+
+
+
+.fix::after{
+	clear: both;
+	display: block;
+	content: "";
+}
