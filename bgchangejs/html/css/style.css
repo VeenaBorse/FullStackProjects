@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/colorsselect.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom center; 
+	height: 100vh;
+}
+
+i{
+	
+	margin:60px;
+	
+}
+
+a{
+	font-size:50px;
+	color: #2d6162;
+}
+
+a:hover{
+	color: #ea6321;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+.container h1{
+	font-size: 28px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #555;
+	padding: 30px;
+}
+
+ul{
+	list-style-type: none;
+	border:5px solid gray;
+	overflow:auto;
+	width: 340px;
+	margin: 0 auto;
+	border-radius: 5px;
+
+}
+
+li{
+	float: left;
+	padding: 20px;
+	margin: 20px;
+	font-size: 0;
+	border:1px solid gray;
+	border-radius: 5px;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
+#mood{
+	margin: 0 auto;
+	text-align: center;
+	margin: 80px;
+	padding: 30px;
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+	width: 960px;
+	/*background: linear-gradient(#dab1ff, #fff);*/
+	color: #555;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px gray;
+	height: 300px;
+}
+
+span{
+	display: none;
+	
+	
+}
+
+#pink{
+	background-color: #ff85ff;
+}
+
+#green{
+	background-color: #ace3ac;
+}
+
+#yellow{
+	background-color: #fcf4a3;
+}
+
+#blue{
+	background-color: #9bbffe;
+}
