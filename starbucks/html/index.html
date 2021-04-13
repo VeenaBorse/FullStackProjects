@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Starbucks</title>
+</head>
+<body>
+	<div class="container">
+		<div class="circle"></div>
+		<header>
+
+			<div class="floatleft">
+				<img src="images/logo.png" class="logo">
+			</div>
+			<div class="floatright">
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">Whats New</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+		</header>
+		
+
+
+		<div class="content">
+			<div class="textbox">
+				<h1>It's not just Coffee<br>It's <span>StarBucks</span></h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				</p>
+				<button ><span class="learnmore"></span>Learn More</button>
+			</div>
+				<div class="imgbox">
+					<img src="images/img1.png" class="starbucks">
+				</div>
+				<div>
+					<ul class="thumb">
+						<li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png');changeCircleColor('#017143')"></li>
+						<li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png');changeCircleColor('#eb7495')"></li>
+						<li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function imgSlider(anything){
+			document.querySelector('.starbucks').src=anything
+		}
+
+		function changeCircleColor(color){
+			var circle = document.querySelector('.circle');
+			circle.style.background = color;
+		}
+	</script>
+</body>
+</html>
