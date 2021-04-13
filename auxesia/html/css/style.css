@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('..fonts/muli/muli-bold-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulibolditalic';
+    src: url('..fonts/muli/muli-bolditalic-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliextralight';
+    src: url('..fonts/muli/muli-extralight-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliextralightitalic';
+    src: url('..fonts/muli/muli-extralightitalic-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliregularitalic';
+    src: url('..fonts/muli/muli-italic-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('..fonts/muli/muli-light-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulilightitalic';
+    src: url('..fonts/muli/muli-lightitalic-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('..fonts/muli/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-semi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('..fonts/muli/muli-semibold-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muli';
+    src: url('../fonts/muli/muli-webfont.woff2') format('woff2'),
+         url('..fonts/muli/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 1780px;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+}
+
+.containerfluid{
+	width: 1200px;
+	margin: 0 auto;
+	/*border:1px solid green;*/
+}
+
+
+header{
+	background-image: url("../images/header_bg.png");
+	height: 875px;
+	background-size: contain;
+}
+
+.top-header{
+	background-color: #cccdcb;
+	height: 170px;
+	padding-top:55px;
+	padding-bottom: 25px;
+}
+
+#logo{
+	float: left;
+
+}
+
+#nav{
+	float: right;
+	padding-top:35px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	padding-left: 35px;
+}
+
+nav li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #7c716c;
+	font-weight: 400;
+	font-family: "muli";
+}
+
+nav li a:hover{
+	color: #fff;
+}
+
+#bottom-header{
+	width: 500px;
+	height: 200px;
+	border:2px solid #c66e3e;
+	font-size: 38px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	
+	font-family: "arial";
+	margin-top: 250px;
+	padding-left: 50px;
+	padding-top:55px;
+}
+
+#bottom-header p{
+	padding:0px 0px 5px 0px;
+
+}
+.main{
+	/*position: relative;*/
+}
+
+.blk_1{
+	/*height: 380px;*/
+
+}
+
+.blk_1 h4{
+	padding:70px 0px 35px 0px;
+	font-size: 23px;
+	letter-spacing: 1px;
+	color: #c66e3e;
+	font-weight: 700;
+	font-family: "Comfortaa";
+}
+
+.blk_1 span{
+	font-size: 17px;
+	color: #7c716c;
+	font-weight: 400;
+	font-family: "Muli";
+}
+
+.blk_2{
+	background-image: url("../images/main_bg1.png");
+	height: 650px;
+	position: relative;
+	top: -50%;
+	
+	/*border:2px solid blue;*/
+}
+
+.blk_2_content{
+	padding-top: 160px;
+}
+
+.blk_2_content h4{
+	font-size: 23px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Comfortaa";
+	padding: 60px 0px;
+}
+
+.blk_2_images .blk_2_div{
+	height: 288px;
+	width: 282px;
+	background-color: #c9c7c7;
+	display: inline-block;
+	margin-right: 23px;
+	float: left;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.blk_2_images .blk_2_div:last-child{
+	margin-right: 0px;
+}
+
+.blk_2_images .blk_2_div p{
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #7c716c;
+	font-weight: 700;
+	font-family: "Comfortaa";
+}
+
+.overlay{
+	background-color: rgba(153,164,40,0.7);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blk_2_images .blk_2_div:hover .overlay{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.blk_3{
+	background-color:#99a428;
+}
+
+.blk_3_content{
+	padding:70px 0px;
+}
+
+.blk_3_content h4{
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Comfortaa";
+}
+
+.blk_3_content p{
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Muli";
+	padding-top: 25px;
+}
+
+.blk_4 h4{
+	font-size: 23px;
+	letter-spacing: 1px;
+	color: #99a428;
+	font-weight: 700;
+	font-family: "Comfortaa";
+	padding-top:60px;
+}
+
+.blk_5{
+	background-color: #c66e3e;
+	padding: 20px 0px;
+	height: 60px;
+
+}
+
+.blk_5_content1{
+	font-size: 23px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Comfortaa";
+}
+
+
+.blk_5 .blk_5_content1, .blk_5_content4{
+	float: left;
+	width: 17%;
+}
+
+.blk_5_content2, .blk_5_content3 {
+	float: left;
+	width: 33%;
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Muli";
+
+}
+
+.blk_5_content4, .blk_5_content3{
+	text-align: right;
+}
+
+.blk_5_content4{
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Muli";
+}
+
+.blk_6{
+	background-image: url("../images/blk6_bg.png");
+	height: 270px;
+}
+
+.blk_7{
+	background-color: #dad6d4;
+	height: 80px;
+	padding: 20px;
+}
+
+.floatleft_blk7{
+	float: left;
+	width: 60%;
+	margin-top: 10px;
+}
+
+.floatright_blk7{
+	float: right;
+	width: 40%;
+}
+
+.blk_7 ul{
+	list-style-type: none;
+}
+
+.blk_7 ul li{
+	float: left;
+	/*width: 20%;*/
+	font-size: 11px;
+	color: #7c716c;
+	font-weight: 400;
+	font-family: "Muli";
+}
+
+.blk_7 ul li span{
+	margin: 10px;
+}
+
+.blk_7 ul li a{
+	text-decoration: none;
+	font-size: 28px;
+	margin: 10px;
+	color: #7c716c;
+}
+
+
+
+
+
+
+.fix::after{
+	clear: both;
+	display: block;
+	content: "";
+}
