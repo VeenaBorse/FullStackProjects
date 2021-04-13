@@ -1,0 +1,273 @@
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    padding-top: 48px;
+    padding-bottom:78px;
+    
+}
+
+.container{
+    background-color:#ffffff;
+    width: 965px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+
+
+header a{
+    text-decoration:none;
+    color:black;
+    
+}
+
+header nav a::after{
+    content:' /';
+    
+}
+
+nav:last-child{
+    content:" ";
+    
+}
+.floatleft{
+    float: left;
+    width: 50%;
+
+}
+.burnslogo{
+    font-size:36px;
+    font-weight: bold;
+}
+nav{
+    text-align: right;
+}
+
+nav a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0b0b0b;
+    vertical-align: bottom;
+    
+}
+
+nav a:hover{
+    color:#999999;
+}
+
+.contentalign{
+    text-align: center;
+    font-size: 16px;
+    padding:100px 50px 100px 35px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.contentalign p{
+    padding-top:40px;
+    padding-bottom:45px;
+}
+button{
+    background-color: #000000;
+    color:white;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover{
+    border:1px solid blue;
+}
+
+main h2{
+    padding-top: 55px;
+    padding-bottom:50px;
+    font-size: 30px;
+}
+
+.boxes{
+    float: left;
+    width: 30%;
+    background-color:white;
+    display:inline-block;
+    border:1px solid #cccccc;
+    text-align: center;
+    margin-right: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.boxes:last-child{
+    margin:0px;
+}
+
+aside{
+    width: 100%;
+    height: 200px;
+    background-color:#cccccc;  
+}
+
+.boxes h4{
+    font-size:18px;
+    padding-top:20px;
+}
+
+.boxes p{
+    font-size:15px;
+    padding-bottom: 15px;
+    color:#666666;
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+section{
+    background-color:#e5e5e5;
+    
+}
+
+
+.containergray{
+    
+    width: 965px;
+    margin: 0 auto;
+}
+
+.containergray h2{
+    font-size:30px;
+    padding:50px 0px 50px 0px;
+    font-family: serif;
+    font-weight: normal;
+}
+.containergray p{
+    font-size:15px;
+    color:#444444;
+    font-family: serif;
+    font-weight: normal;
+    line-height: 24px;
+    padding-right: 70px;
+    
+}
+
+.containergray a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.paddingsocial{
+    padding-top:70px;
+     padding-bottom:65px;
+}
+
+.containergray i{
+   text-align: center;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding:7px;
+    width: 35px;
+    height: 35px;
+}
+
+.floatleftbottom{
+    float: left;
+    width:40%;
+    display: inline-block;
+}
+
+.floatrightbottom{
+    float: left;
+    width:60%;
+    display: inline-block;
+}
+
+.containerbottom{
+    width:450px;
+    margin:0 auto;
+    border:1px solid red;
+}
+
+
+
+.containerright{
+    width:100%;
+    margin:0px auto;
+    
+}
+
+.containerright:first-child{
+    margin-bottom: 40px;
+}
+
+.containerright:last-child{
+    margin-top: 40px;
+}
+
+.rightbox{
+    width:150px;
+    height:100px;
+    background-color: #cccccc;
+    margin-right: 30px;
+}
+
+.textalign h4{
+    font-size: 18px;
+}
+
+.textalign p{
+    font-size: 13px;
+    
+    padding-top: 10px;
+}
+.textalign p a{
+    color:red;
+    font-size: 13px;
+}
+
+
+
+footer{
+    padding-top:30px;
+    padding-bottom:230px;
+}
+
+.copyrightlogo{
+    font-size:15px;
+}
+
+footer a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0b0b0b;
+    vertical-align: bottom;
+    
+}
+
+footer a:hover{
+    color:#099999;
+}
+
+footer a::after{
+    content:" /";
+    
+}
+
+.fix::after{
+    display: block;
+    content:" ";
+    clear:both;
+    
+}

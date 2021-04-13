@@ -1,0 +1,122 @@
+/* responsive stylesheet 
+    laptop => max-1199px min -980px
+    tablet => max-979px min -768px
+    mobile => max-767px min -320px
+
+*/
+
+@media screen and (max-width:1199px){
+    .container{
+        width:950px;
+        margin: 0 auto;
+    }
+    .containergray{
+    
+    width: 950px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width:979px){
+    .container{
+        width:750px;
+         margin: 0 auto;
+        
+    }
+    .containergray{
+    
+    width: 750px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width:767px){
+    
+     
+    .container{
+        width:96%;
+        margin: 0 auto;
+        border: none;
+    }    
+    .containergray{
+    
+    width: 96%;
+    margin: 0 auto;
+    }
+    header a{
+    text-decoration:none;
+    color:black;
+        display: block;
+    }
+    
+    header nav a{
+        font-size:17px;
+    }
+        header nav a::after{
+    content:" ";
+    
+    }
+    
+    .contentalign p{
+        font-size: 12px;
+    }
+    
+    footer a::after{
+    content:" ";
+        display: block;
+    
+    }
+    h1{
+    font-size: 25px;
+    }
+    
+    main h2{
+    padding-top: 25px;
+    padding-bottom:20px;
+    font-size: 25px;
+    }
+    .boxes{
+     display: block;
+    width: 300px;
+    background-color:white;
+    float: none;
+    border:1px solid #cccccc;
+     margin: 0 auto;
+    margin-bottom: 10px;
+     
+     
+    }
+    
+    .boxes:last-child{
+    margin:0 auto;;
+    }
+
+    .contentalign{
+    text-align: center;
+    font-size: 16px;
+    padding:50px 25px 50px 20px;
+    }
+    
+    .containergray p{
+    font-size:10px;
+    padding-right: 10px;
+    
+    }
+    
+    .textalign h4{
+    font-size: 13px;
+    }
+
+    .textalign p{
+        font-size: 8px;
+        padding-top: 10px;
+        
+    }
+    .textalign p a{
+        color:red;
+        font-size: 8px;
+    }
+    main{
+    padding-bottom: 20px;
+    }
+}
